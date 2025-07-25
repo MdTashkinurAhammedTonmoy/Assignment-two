@@ -295,20 +295,18 @@
   margin-left: 24px;
 }
 
-.img-footer{
-    margin-bottom: 50px;
+.img-footer {
+  margin-bottom: 50px;
 }
-
-
-
-
-
-
 
 /* responsive mobile degine */
 
 @media screen and (max-width: 570px) {
   /* header */
+  
+  .first-img{
+    margin-left: 15px;
+  }
   .head-logo {
     display: flex;
     justify-content: space-around;
@@ -319,14 +317,24 @@
   }
   .header-text {
     margin-top: 28px;
+    margin-left: 15px;
   }
   #nav-link {
     display: none;
   }
-  .img-heaider{
-    width: 420px;
+  .img-heaider {
+    width: 410px;
+  }
+  .text-item {
+    font-size: 2.0625rem;
+    margin-bottom: 13px;
   }
   /* main 1 */
+  .main-h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
   .mani-item {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 3px;
@@ -342,7 +350,7 @@
     font-weight: 400;
     padding: 10px 40px;
   }
-  .hard-img{
+  .hard-img {
     width: 180px;
   }
   /* main-2 */
@@ -352,11 +360,19 @@
   .img-1 {
     display: none;
   }
-  .img-2-main{
+  .img-2-main {
     width: 393px;
   }
   .main-section-text-2 {
     padding: 05px;
+  }
+  .main-section-text-2 h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .oll-p {
+    font-size: 1.5rem;
   }
 
   /* main-3 */
@@ -370,6 +386,15 @@
     height: 201px;
     margin-top: 25px;
     margin-left: -1px;
+  }
+  .section-item-3 h2 {
+    font-size: 30px;
+  }
+  .blom-shop-1 {
+    font-size: 20px;
+  }
+  .blom-shop-3 {
+    font-size: 16px;
   }
 
   /* footer 1 */
